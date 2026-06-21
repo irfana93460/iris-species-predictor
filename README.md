@@ -3,15 +3,18 @@
 ML web app that predicts Iris flower species using RandomForest + Streamlit
 
 ## Demo
+**Live App:** https://iris-species-predictor-7rkafyfllesz9wenjitcjk.streamlit.app
 ![App Screenshot](demo.jpg)
 
 ## Tech Stack
 - Python
 - Scikit-learn
-- Streamlit 
+- Streamlit
 - NumPy
 
-## Run Locally
-```bash
-pip install streamlit scikit-learn numpy
-streamlit run iris_streamlit.py
+## Model Details
+- **Algorithm:** RandomForestClassifier
+- **Accuracy:** 100% on test data
+- **Features:** Sepal length/width, Petal length/width
+
+Built by Irfana
